@@ -1,176 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Helpfuga - Detección de fugas en Barcelona</title>
-  <link rel="icon" href="favicon.ico" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helpfuga - Detección de fugas en Barcelona</title>
+    <link rel="icon" href="favicon.ico">
+    <!-- Fuente moderna Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
 
-  <style>
-    body {
-      font-family: 'Montserrat', Arial, sans-serif;
-      margin: 0;
-      background-color: #fff7eb;
-      color: #222;
-    }
-
-    .navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background: linear-gradient(90deg, #ff8800 70%, #ffb347 100%);
-      padding: 0.6em 1.2em;
-      box-shadow: 0 2px 10px rgba(255,136,0,0.13);
-      position: sticky;
-      top: 0;
-      z-index: 10;
-      flex-wrap: wrap;
-    }
-
-    .logo-nav {
-      display: flex;
-      align-items: center;
-    }
-
-    .logo-title {
-      font-size: 1.6em;
-      font-weight: 800;
-      color: #fff;
-      letter-spacing: 2px;
-    }
-
-    .navbar ul {
-      display: flex;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    .navbar li {
-      margin: 0 0.6em;
-    }
-
-    .navbar a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: 600;
-      padding: 0.4em 1em;
-      border-radius: 20px;
-      transition: background 0.15s, color 0.15s;
-    }
-
-    .navbar a.active, .navbar a:hover {
-      background: #fff;
-      color: #ff8800;
-    }
-
-    .contact-info-nav {
-      display: flex;
-      gap: 1em;
-      font-size: 1em;
-      align-items: center;
-    }
-
-    .contact-info-nav a {
-      color: #fff;
-      text-decoration: underline;
-      font-weight: 600;
-      transition: color 0.2s;
-    }
-
-    .contact-info-nav a:hover {
-      color: #222;
-    }
-
-    main {
-      max-width: 900px;
-      margin: 2em auto;
-      padding: 0 1em;
-    }
-
-    .card {
-      background: #fff;
-      border-radius: 18px;
-      box-shadow: 0 2px 14px rgba(255,136,0,0.09);
-      margin-bottom: 2em;
-      padding: 2em 1.5em;
-      transition: box-shadow 0.16s;
-      position: relative;
-    }
-
-    .card:hover {
-      box-shadow: 0 6px 22px rgba(255,136,0,0.15);
-    }
-
-    .card h2 {
-      color: #ff8800;
-      font-size: 2em;
-      margin-top: 0;
-      font-weight: 800;
-      letter-spacing: 1px;
-    }
-
-    .card p {
-      font-size: 1.14em;
-      margin-top: 1em;
-      font-weight: 600;
-      line-height: 1.7;
-    }
-
-    .contact-buttons {
-      margin-top: 1em;
-    }
-
-    .btn, .btn-secondary {
-      display: inline-block;
-      margin: 0.4em 0.3em;
-      padding: 0.7em 2em;
-      border-radius: 30px;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 1em;
-      transition: box-shadow 0.15s, transform 0.15s;
-      box-shadow: 0 2px 12px rgba(255,136,0,0.10);
-    }
-
-    .btn {
-      background-color: #ff8800;
-      color: white;
-      border: none;
-    }
-
-    .btn:hover {
-      background-color: #ff6600;
-      transform: translateY(-2px) scale(1.045);
-      box-shadow: 0 4px 18px rgba(255,136,0,0.19);
-    }
-
-    .btn-secondary {
-      background-color: #fff;
-      color: #ff8800;
-      border: 2px solid #ff8800;
-    }
-
-    .btn-secondary:hover {
-      background-color: #ffe1c1;
-      color: #ff6600;
-      border-color: #ff6600;
-      transform: translateY(-2px) scale(1.045);
-    }
-
-    footer {
-      text-align: center;
-      padding: 1.2em;
-      background: linear-gradient(90deg, #ff8800 60%, #ffb347 100%);
-      color: white;
-      font-size: 1em;
-      letter-spacing: 1px;
-      margin-top: 2em;
-      border-radius: 12px 12px 0 0;
-      box-shadow: 0 -2px 12px rgba(255,136,0,0.07);
-    }
-
-    @media (max-width: 700px) {
-      .nav
-
+    <!-- CSS embebido -->
+    <style>
+        body {
+            font-family: 'Montserrat', Arial, sans-serif;
+            margin: 0;
+            background-color: #fff7eb;
+            color: #222;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(90deg, #ff8800 70%, #ffb347 100%);
+            pad
