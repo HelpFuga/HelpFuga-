@@ -1,8 +1,3 @@
-Gracias por avisar. Aquí tienes el **código HTML completo con el CSS incrustado**, todo en un solo bloque listo para copiar y pegar sin cortes ni errores.
-
----
-
-### ✅ CÓDIGO COMPLETO UNIFICADO (HTML + CSS):
 
 ```html
 <!DOCTYPE html>
