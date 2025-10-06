@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -200,4 +199,3 @@
 
         <section id="zonas" class="card">
             <h
-```
